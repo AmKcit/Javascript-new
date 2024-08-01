@@ -13,3 +13,4 @@ const friend ={
     living:"uttrakhand"
 };
 console.log(friend);
+console.log(car);
