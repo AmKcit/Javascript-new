@@ -62,8 +62,13 @@ let items = [250, 645, 300, 900, 50];
 //         idx++;
 //     }
 //     console.log(items)
-for(let i=0; i<items.length; i++){
-    let offer = items[i]/10;
-    items[i] -= offer;
+// for(let i=0; i<items.length; i++){
+//     let offer = items[i]/10;
+//     items[i] -= offer;
+// }
+// console.log(items);
+
+let number = 5;
+for(let i=1; i<=10; i++){
+    console.log(`the table of 5 is 5x ${5*i}`);
 }
-console.log(items);
