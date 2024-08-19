@@ -72,3 +72,19 @@ let items = [250, 645, 300, 900, 50];
 // for(let i=1; i<=10; i++){
 //     console.log(`the table of 5 is 5x ${5*i}`);
 // }
+
+// let heroes = ['ironman, batman, spiderman, antman'];
+
+// for(let idx=0; idx<=heroes.length; idx++){
+//     console.log(heroes[idx]);
+    
+// }
+
+// for(let el of heroes){
+//     console.log(el);
+// }
+let cities = ['delhi','pune','pokhara','kathmandu'];
+
+for(let city of cities){
+    console.log(city.toUpperCase());
+}
