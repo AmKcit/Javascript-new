@@ -68,7 +68,7 @@ let items = [250, 645, 300, 900, 50];
 // }
 // console.log(items);
 
-let number = 5;
-for(let i=1; i<=10; i++){
-    console.log(`the table of 5 is 5x ${5*i}`);
-}
+// let number = 5;
+// for(let i=1; i<=10; i++){
+//     console.log(`the table of 5 is 5x ${5*i}`);
+// }
