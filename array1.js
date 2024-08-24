@@ -127,4 +127,14 @@ console.log(arr);
 
 //replace
 arr.splice(3,1,101);
-console.log(arr);
+// console.log(arr);
+
+//practice 1
+let companies = ['blomberg','Microsoft','uber','google','IBM','Netflix'];
+// console.log(companies.shift());
+// console.log(companies);
+// console.log(companies.splice(2,1,'ola'));
+// console.log(companies);
+
+console.log(companies.push('amazon'));
+console.log(companies);
