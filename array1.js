@@ -83,8 +83,48 @@ let items = [250, 645, 300, 900, 50];
 // for(let el of heroes){
 //     console.log(el);
 // }
-let cities = ['delhi','pune','pokhara','kathmandu'];
+// let cities = ['delhi','pune','pokhara','kathmandu'];
 
-for(let city of cities){
-    console.log(city.toUpperCase());
-}
+// for(let city of cities){
+//     console.log(city.toUpperCase());
+// }
+
+// let foodItems = ['potatoes','apple','tomato','litchi'];
+// let marks = [97,86,54,36];
+// console.log(foodItems);
+// console.log(foodItems.toString());
+// console.log(foodItems);
+// console.log(marks.toString());
+
+let marvels_heroes = ['thor','spiderman','ironman','doctorstrange','hulk'];
+// let dc_heroes = ['superman','batman']
+
+// let heroes = marvels_heroes.concat(dc_heroes);
+// console.log(heroes);
+// let val = marvels_heroes.shift();
+// console.log('deleted',val);
+// console.log(marvels_heroes);
+
+// console.log(marvels_heroes);
+
+// console.log(marvels_heroes.slice());
+// console.log(marvels_heroes.splice('thor', 0 ,'shehulk'));
+
+let arr = [1,2,3,4,5,6,7];
+console.log(arr);
+// arr.splice(2,2,101,102);
+// console.log(arr);
+
+//Element Add
+
+// arr.splice(2, 0, 101);
+// console.log(arr);
+
+//delete
+
+// arr.splice(3,1);
+// console.log(arr);
+
+//replace
+arr.splice(3,1,101);
+console.log(arr);
