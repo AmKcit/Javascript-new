@@ -40,7 +40,17 @@
 
 //practice question
 
-function countVowels(str){
+// function countVowels(str){
+//     let count=0;
+//     for(const char of str){
+//         if(char ==='a'||char ==="e" || char ==="i" || char ==="o" || char ==="u"){
+//             count++;  
+//         }
+//     }
+//     return count;
+// }
+
+const countVowels = (str) => {
     let count=0;
     for(const char of str){
         if(char ==='a'||char ==="e" || char ==="i" || char ==="o" || char ==="u"){
@@ -49,3 +59,4 @@ function countVowels(str){
     }
     return count;
 }
+console.log(countVowels("aeiou"));
